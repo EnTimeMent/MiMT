@@ -1,4 +1,4 @@
-## MiMT learning algorithm
+## Movement in Multiple Time (MiMT) learning algorithm
 ## Copyright (c) 2019, 2020 University College London
 ## Author: Temitayo Olugbade
     
