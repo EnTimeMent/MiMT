@@ -1,4 +1,7 @@
-
+## MiMT learning algorithm
+## Copyright (c) 2019, 2020 University College London
+## Author: Temitayo Olugbade
+    
 import tensorflow as tf
 from tensorflow import keras
 
