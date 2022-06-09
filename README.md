@@ -29,4 +29,4 @@ Please cite the above publication for any use of the MiMT architecture or code.
 # Requirements
 The MiMT architecture code is based on Python and Tensorflow. 
 
-The network requires time-continuous 3D joint positions for five main body parts, head, left and right upper and lower limbs, together with the 3D positions for the spine region. The code can easily be modified to use fewer or more divisions of the body.
+The network requires time-continuous 3D joint positions for five main body parts, head, left and right upper and lower limbs, together with the 3D positions for the spine region. For example, the left upper limb region input (one of the 5 inputs into the network) is a concatenation of the 3D positions of the lower arm, upper arm, left shoulder, top spine, mid spine, and bottom spine joints to make a `b x seqlen x 6 x 3` input, where `b` is the batch size of the input and `seqlen` is the number of timesteps in the input. The code can easily be modified to use fewer or more regions of the body and/or fewer or more joints within each region.
